@@ -1,0 +1,61 @@
+# Credentials & Sensitive Data
+serviceAccountKey.json
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Images & Captures
+*.jpg
+*.jpeg
+*.png
+*.gif
+frame.jpg
+captures/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Models
+*.pt
+*.pth
+*.weights
+*.onnx
+
+# Firebase
+*.json
+!requirements.txt
